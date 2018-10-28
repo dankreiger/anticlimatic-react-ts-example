@@ -78,18 +78,6 @@ ShallowWrapper {
                               />
                     </InputGroup>
           </Col>
-          <Col
-                    tag="div"
-                    widths={
-                              Array [
-                                        "xs",
-                                        "sm",
-                                        "md",
-                                        "lg",
-                                        "xl",
-                                      ]
-                    }
-          />
 </Row>,
         <Row
           tag="div"
@@ -200,18 +188,6 @@ ShallowWrapper {
                             />
               </InputGroup>
 </Col>,
-            <Col
-              tag="div"
-              widths={
-                            Array [
-                                          "xs",
-                                          "sm",
-                                          "md",
-                                          "lg",
-                                          "xl",
-                                        ]
-              }
-/>,
           ],
           "className": "align-items-center",
           "tag": "div",
@@ -382,24 +358,6 @@ ShallowWrapper {
               ],
               "type": [Function],
             },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "tag": "div",
-              "widths": Array [
-                "xs",
-                "sm",
-                "md",
-                "lg",
-                "xl",
-              ],
-            },
-            "ref": null,
-            "rendered": null,
             "type": [Function],
           },
         ],
@@ -644,18 +602,6 @@ ShallowWrapper {
                                     />
                         </InputGroup>
             </Col>
-            <Col
-                        tag="div"
-                        widths={
-                                    Array [
-                                                "xs",
-                                                "sm",
-                                                "md",
-                                                "lg",
-                                                "xl",
-                                              ]
-                        }
-            />
 </Row>,
           <Row
             tag="div"
@@ -766,18 +712,6 @@ ShallowWrapper {
                                 />
                 </InputGroup>
 </Col>,
-              <Col
-                tag="div"
-                widths={
-                                Array [
-                                                "xs",
-                                                "sm",
-                                                "md",
-                                                "lg",
-                                                "xl",
-                                              ]
-                }
-/>,
             ],
             "className": "align-items-center",
             "tag": "div",
@@ -948,24 +882,6 @@ ShallowWrapper {
                 ],
                 "type": [Function],
               },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "tag": "div",
-                "widths": Array [
-                  "xs",
-                  "sm",
-                  "md",
-                  "lg",
-                  "xl",
-                ],
-              },
-              "ref": null,
-              "rendered": null,
               "type": [Function],
             },
           ],
