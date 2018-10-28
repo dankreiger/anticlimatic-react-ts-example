@@ -1,10 +1,16 @@
+import * as React from 'react';
 import useFormInput from './useFormInput';
+import * as enzyme from 'enzyme';
 
-xdescribe('useFormInput', () => {
+const MockComponent = () => {
+  const stateHook = useFormInput('test value');
+  return <input {...stateHook} />;
+};
+
+describe('useFormInput', () => {
   test('it returns hook', () => {
-    expect(useFormInput('test value')).toBe({
-      onChange: jest.fn(),
-      value: 'test value'
-    });
+    const hookedComponent = enzyme.mount(<MockComponent />);
+    expect(hookedComponent.find('input').props().value).toBe('test value');
+    expect(hookedComponent.find('input').props().onChange).toBeDefined();
   });
 });
