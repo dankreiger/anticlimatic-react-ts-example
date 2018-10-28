@@ -4,8 +4,12 @@ import {
   Container,
   Input,
   InputGroup,
-  InputGroupAddon,  
+  InputGroupAddon,
   Row,
+  Card,
+  CardTitle,
+  CardText,
+  Button
 } from 'reactstrap';
 // import { useFormInput } from '../../hooks/useFormInput';
 // import InputGroup from '../InputGroup/InputGroup';
@@ -60,9 +64,19 @@ class App extends React.Component<{}, IState> {
             </InputGroup>
           </Col>
           <Col>
-            <button onClick={this.handleClick}>Click me {count}</button>
           </Col>
-        </Row>       
+        </Row>
+        <Row>
+          <Col>
+            <Card body inverse color="primary">
+              <CardTitle>{name}</CardTitle>
+              <CardText>
+                {surname}
+              </CardText>
+              <Button color="secondary" onClick={this.handleClick}>Click me {count}</Button>
+            </Card>
+          </Col>
+        </Row>
       </Container>
     );
   }

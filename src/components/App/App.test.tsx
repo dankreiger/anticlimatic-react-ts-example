@@ -17,11 +17,11 @@ describe('App', () => {
       component = enzyme.mount(<App />); // Enzyme's shallow not working with React state hooks
     });
     describe('button', () => {
-      test('renders 1 button html element with the text "Click me"', () => {
-        expect(component.find('button').length).toBe(1);
+      test('renders 1 Button component', () => {
+        expect(component.find('Button').length).toBe(1);
       });
       test('button has text "Click me"', () => {
-        expect(component.find('button').text()).toBe('Click me 0');
+        expect(component.find('Button').text()).toBe('Click me 0');
       });      
     });
     describe('inputs', () => {
@@ -42,20 +42,17 @@ describe('App', () => {
   });
 
   describe('behavior', () => {
-    let component: enzyme.ShallowWrapper;
+    let component: enzyme.ReactWrapper;
     beforeEach(() => {
       // global.innerWidth = 500;
-      component = enzyme.shallow(<App />); // Enzyme's shallow isn't working with state hooks
+      component = enzyme.mount(<App />); // Enzyme's shallow isn't working with state hooks
     });
 
     test('renders an incremented value on button click', () => {
-      for (let i in [0, 1, 2, 3]) {
-        if(i) {
-          expect(component.find('button').text()).toBe(`Click me ${i}`);
-          component.find('button').simulate('click');
-          component.update(); // Read: enzyme update
-        }
-      }
+      expect(component.find('button').text()).toBe('Click me 0');
+      component.find('button').simulate('click');
+      component.update(); // Read: enzyme update
+      expect(component.find('button').text()).toBe('Click me 1');
     });
 
     // test('renders the window size on resize', () => {
