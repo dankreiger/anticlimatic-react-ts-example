@@ -4,7 +4,7 @@ import App from './App';
 
 describe('App', () => {
   describe('rendering', () => {
-    const renderedComponent: enzyme.ShallowWrapper = enzyme.shallow(<App />);
+    const renderedComponent: Cheerio = enzyme.render(<App />); // shallow wrapper not working with hooks
     test('renders as expected', () => {
       expect(renderedComponent).toBeTruthy();
       expect(renderedComponent).toMatchSnapshot();
@@ -17,12 +17,12 @@ describe('App', () => {
       component = enzyme.mount(<App />); // Enzyme's shallow not working with React state hooks
     });
     describe('button', () => {
-      test('renders 1 Button component', () => {
-        expect(component.find('Button').length).toBe(1);
+      test('renders 1 button html element', () => {
+        expect(component.find('button').length).toBe(1);
       });
       test('button has text "Click me"', () => {
-        expect(component.find('Button').text()).toBe('Click me 0');
-      });      
+        expect(component.find('button').text()).toBe('Click me 0');
+      });
     });
     describe('inputs', () => {
       test('renders 2 input html elements', () => {
@@ -36,9 +36,8 @@ describe('App', () => {
     //   });
     //   test('div.windowWidth displays the current window width information', () => {
     //     expect(component.find('.windowWidth').text()).toBe('Window width: 1024'); // 1024 is the JSDOM default
-    //   });      
+    //   });
     // })
-
   });
 
   describe('behavior', () => {

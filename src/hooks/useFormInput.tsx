@@ -1,5 +1,10 @@
 import { useState } from 'react';
 
+/**
+ *
+ * @param {string} initialValue
+ */
+
 export default function useFormInput(initialValue: string) {
   const [value, setValue] = useState(initialValue);
 

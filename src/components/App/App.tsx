@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react'; // // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/5128
 // hooks
 import useFormInput from '../../hooks/useFormInput';
 import useDocumentTitle from '../../hooks/useDocumentTitle';
@@ -16,9 +17,12 @@ const App: React.SFC<{}> = () => {
 
   useDocumentTitle(`${name.value} ${surname.value}`);
 
+  const [count, setCount] = useState(0);
+  const handleClick = () => setCount(count + 1);
+
   return (
     <>
-      <button>Click me</button>
+      <button onClick={handleClick}>Click me {count}</button>
       <InputGroup inputLabel="Name" stateHook={name} />
       <InputGroup inputLabel="Surname" stateHook={surname} />
     </>

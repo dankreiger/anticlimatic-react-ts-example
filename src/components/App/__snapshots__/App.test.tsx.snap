@@ -1,1081 +1,3612 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App rendering renders as expected 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <Row
-          className="align-items-center"
-          tag="div"
->
-          <Col
-                    tag="div"
-                    widths={
-                              Array [
-                                        "xs",
-                                        "sm",
-                                        "md",
-                                        "lg",
-                                        "xl",
-                                      ]
-                    }
-          >
-                    <InputGroup
-                              tag="div"
-                    >
-                              <InputGroupAddon
-                                        addonType="prepend"
-                                        tag="div"
-                              >
-                                        Name
-                              </InputGroupAddon>
-                              <Input
-                                        onChange={[Function]}
-                                        type="text"
-                                        value="Dan"
-                              />
-                    </InputGroup>
-          </Col>
-          <Col
-                    tag="div"
-                    widths={
-                              Array [
-                                        "xs",
-                                        "sm",
-                                        "md",
-                                        "lg",
-                                        "xl",
-                                      ]
-                    }
-          >
-                    <InputGroup
-                              tag="div"
-                    >
-                              <InputGroupAddon
-                                        addonType="prepend"
-                                        tag="div"
-                              >
-                                        Surname
-                              </InputGroupAddon>
-                              <Input
-                                        onChange={[Function]}
-                                        type="text"
-                                        value="Kreiger"
-                              />
-                    </InputGroup>
-          </Col>
-</Row>,
-        <Row
-          tag="div"
->
-          <Col
-                    tag="div"
-                    widths={
-                              Array [
-                                        "xs",
-                                        "sm",
-                                        "md",
-                                        "lg",
-                                        "xl",
-                                      ]
-                    }
-          >
-                    <Card
-                              body={true}
-                              color="primary"
-                              inverse={true}
-                              tag="div"
-                    >
-                              <CardTitle
-                                        tag="h5"
-                              >
-                                        Dan
-                              </CardTitle>
-                              <CardText
-                                        tag="p"
-                              >
-                                        Kreiger
-                              </CardText>
-                              <Button
-                                        color="secondary"
-                                        onClick={[Function]}
-                                        tag="button"
-                              >
-                                        Click me 
-                                        0
-                              </Button>
-                    </Card>
-          </Col>
-</Row>,
-      ],
-      "tag": "div",
-    },
-    "ref": null,
-    "rendered": Array [
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
       Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": Array [
-            <Col
-              tag="div"
-              widths={
-                            Array [
-                                          "xs",
-                                          "sm",
-                                          "md",
-                                          "lg",
-                                          "xl",
-                                        ]
-              }
->
-              <InputGroup
-                            tag="div"
-              >
-                            <InputGroupAddon
-                                          addonType="prepend"
-                                          tag="div"
-                            >
-                                          Name
-                            </InputGroupAddon>
-                            <Input
-                                          onChange={[Function]}
-                                          type="text"
-                                          value="Dan"
-                            />
-              </InputGroup>
-</Col>,
-            <Col
-              tag="div"
-              widths={
-                            Array [
-                                          "xs",
-                                          "sm",
-                                          "md",
-                                          "lg",
-                                          "xl",
-                                        ]
-              }
->
-              <InputGroup
-                            tag="div"
-              >
-                            <InputGroupAddon
-                                          addonType="prepend"
-                                          tag="div"
-                            >
-                                          Surname
-                            </InputGroupAddon>
-                            <Input
-                                          onChange={[Function]}
-                                          type="text"
-                                          value="Kreiger"
-                            />
-              </InputGroup>
-</Col>,
-          ],
-          "className": "align-items-center",
-          "tag": "div",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": <InputGroup
-                tag="div"
->
-                <InputGroupAddon
-                                addonType="prepend"
-                                tag="div"
-                >
-                                Name
-                </InputGroupAddon>
-                <Input
-                                onChange={[Function]}
-                                type="text"
-                                value="Dan"
-                />
-</InputGroup>,
-              "tag": "div",
-              "widths": Array [
-                "xs",
-                "sm",
-                "md",
-                "lg",
-                "xl",
-              ],
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": Array [
-                  <InputGroupAddon
-                    addonType="prepend"
-                    tag="div"
->
-                    Name
-</InputGroupAddon>,
-                  <Input
-                    onChange={[Function]}
-                    type="text"
-                    value="Dan"
-/>,
-                ],
-                "tag": "div",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "addonType": "prepend",
-                    "children": "Name",
-                    "tag": "div",
-                  },
-                  "ref": null,
-                  "rendered": "Name",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "onChange": [Function],
-                    "type": "text",
-                    "value": "Dan",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-              ],
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": <InputGroup
-                tag="div"
->
-                <InputGroupAddon
-                                addonType="prepend"
-                                tag="div"
-                >
-                                Surname
-                </InputGroupAddon>
-                <Input
-                                onChange={[Function]}
-                                type="text"
-                                value="Kreiger"
-                />
-</InputGroup>,
-              "tag": "div",
-              "widths": Array [
-                "xs",
-                "sm",
-                "md",
-                "lg",
-                "xl",
-              ],
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": Array [
-                  <InputGroupAddon
-                    addonType="prepend"
-                    tag="div"
->
-                    Surname
-</InputGroupAddon>,
-                  <Input
-                    onChange={[Function]}
-                    type="text"
-                    value="Kreiger"
-/>,
-                ],
-                "tag": "div",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "addonType": "prepend",
-                    "children": "Surname",
-                    "tag": "div",
-                  },
-                  "ref": null,
-                  "rendered": "Surname",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "onChange": [Function],
-                    "type": "text",
-                    "value": "Kreiger",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-              ],
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "children": <Col
-            tag="div"
-            widths={
-                        Array [
-                                    "xs",
-                                    "sm",
-                                    "md",
-                                    "lg",
-                                    "xl",
-                                  ]
-            }
->
-            <Card
-                        body={true}
-                        color="primary"
-                        inverse={true}
-                        tag="div"
-            >
-                        <CardTitle
-                                    tag="h5"
-                        >
-                                    Dan
-                        </CardTitle>
-                        <CardText
-                                    tag="p"
-                        >
-                                    Kreiger
-                        </CardText>
-                        <Button
-                                    color="secondary"
-                                    onClick={[Function]}
-                                    tag="button"
-                        >
-                                    Click me 
-                                    0
-                        </Button>
-            </Card>
-</Col>,
-          "tag": "div",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": <Card
-              body={true}
-              color="primary"
-              inverse={true}
-              tag="div"
->
-              <CardTitle
-                            tag="h5"
-              >
-                            Dan
-              </CardTitle>
-              <CardText
-                            tag="p"
-              >
-                            Kreiger
-              </CardText>
-              <Button
-                            color="secondary"
-                            onClick={[Function]}
-                            tag="button"
-              >
-                            Click me 
-                            0
-              </Button>
-</Card>,
-            "tag": "div",
-            "widths": Array [
-              "xs",
-              "sm",
-              "md",
-              "lg",
-              "xl",
-            ],
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "body": true,
-              "children": Array [
-                <CardTitle
-                  tag="h5"
->
-                  Dan
-</CardTitle>,
-                <CardText
-                  tag="p"
->
-                  Kreiger
-</CardText>,
-                <Button
-                  color="secondary"
-                  onClick={[Function]}
-                  tag="button"
->
-                  Click me 
-                  0
-</Button>,
-              ],
-              "color": "primary",
-              "inverse": true,
-              "tag": "div",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Dan",
-                  "tag": "h5",
-                },
-                "ref": null,
-                "rendered": "Dan",
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": "Kreiger",
-                  "tag": "p",
-                },
-                "ref": null,
-                "rendered": "Kreiger",
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": Array [
-                    "Click me ",
-                    0,
-                  ],
-                  "color": "secondary",
-                  "onClick": [Function],
-                  "tag": "button",
-                },
-                "ref": null,
-                "rendered": Array [
-                  "Click me ",
-                  0,
-                ],
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        "type": [Function],
+        "data": "Click me 0",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
       },
     ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <Row
-            className="align-items-center"
-            tag="div"
->
-            <Col
-                        tag="div"
-                        widths={
-                                    Array [
-                                                "xs",
-                                                "sm",
-                                                "md",
-                                                "lg",
-                                                "xl",
-                                              ]
-                        }
-            >
-                        <InputGroup
-                                    tag="div"
-                        >
-                                    <InputGroupAddon
-                                                addonType="prepend"
-                                                tag="div"
-                                    >
-                                                Name
-                                    </InputGroupAddon>
-                                    <Input
-                                                onChange={[Function]}
-                                                type="text"
-                                                value="Dan"
-                                    />
-                        </InputGroup>
-            </Col>
-            <Col
-                        tag="div"
-                        widths={
-                                    Array [
-                                                "xs",
-                                                "sm",
-                                                "md",
-                                                "lg",
-                                                "xl",
-                                              ]
-                        }
-            >
-                        <InputGroup
-                                    tag="div"
-                        >
-                                    <InputGroupAddon
-                                                addonType="prepend"
-                                                tag="div"
-                                    >
-                                                Surname
-                                    </InputGroupAddon>
-                                    <Input
-                                                onChange={[Function]}
-                                                type="text"
-                                                value="Kreiger"
-                                    />
-                        </InputGroup>
-            </Col>
-</Row>,
-          <Row
-            tag="div"
->
-            <Col
-                        tag="div"
-                        widths={
-                                    Array [
-                                                "xs",
-                                                "sm",
-                                                "md",
-                                                "lg",
-                                                "xl",
-                                              ]
-                        }
-            >
-                        <Card
-                                    body={true}
-                                    color="primary"
-                                    inverse={true}
-                                    tag="div"
-                        >
-                                    <CardTitle
-                                                tag="h5"
-                                    >
-                                                Dan
-                                    </CardTitle>
-                                    <CardText
-                                                tag="p"
-                                    >
-                                                Kreiger
-                                    </CardText>
-                                    <Button
-                                                color="secondary"
-                                                onClick={[Function]}
-                                                tag="button"
-                                    >
-                                                Click me 
-                                                0
-                                    </Button>
-                        </Card>
-            </Col>
-</Row>,
-        ],
-        "tag": "div",
-      },
-      "ref": null,
-      "rendered": Array [
+    "name": "button",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": Object {
+      "attribs": Object {},
+      "children": Array [
         Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": Array [
-              <Col
-                tag="div"
-                widths={
-                                Array [
-                                                "xs",
-                                                "sm",
-                                                "md",
-                                                "lg",
-                                                "xl",
-                                              ]
-                }
->
-                <InputGroup
-                                tag="div"
-                >
-                                <InputGroupAddon
-                                                addonType="prepend"
-                                                tag="div"
-                                >
-                                                Name
-                                </InputGroupAddon>
-                                <Input
-                                                onChange={[Function]}
-                                                type="text"
-                                                value="Dan"
-                                />
-                </InputGroup>
-</Col>,
-              <Col
-                tag="div"
-                widths={
-                                Array [
-                                                "xs",
-                                                "sm",
-                                                "md",
-                                                "lg",
-                                                "xl",
-                                              ]
-                }
->
-                <InputGroup
-                                tag="div"
-                >
-                                <InputGroupAddon
-                                                addonType="prepend"
-                                                tag="div"
-                                >
-                                                Surname
-                                </InputGroupAddon>
-                                <Input
-                                                onChange={[Function]}
-                                                type="text"
-                                                value="Kreiger"
-                                />
-                </InputGroup>
-</Col>,
-            ],
-            "className": "align-items-center",
-            "tag": "div",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": <InputGroup
-                  tag="div"
->
-                  <InputGroupAddon
-                                    addonType="prepend"
-                                    tag="div"
-                  >
-                                    Name
-                  </InputGroupAddon>
-                  <Input
-                                    onChange={[Function]}
-                                    type="text"
-                                    value="Dan"
-                  />
-</InputGroup>,
-                "tag": "div",
-                "widths": Array [
-                  "xs",
-                  "sm",
-                  "md",
-                  "lg",
-                  "xl",
-                ],
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": Array [
-                    <InputGroupAddon
-                      addonType="prepend"
-                      tag="div"
->
-                      Name
-</InputGroupAddon>,
-                    <Input
-                      onChange={[Function]}
-                      type="text"
-                      value="Dan"
-/>,
-                  ],
-                  "tag": "div",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "addonType": "prepend",
-                      "children": "Name",
-                      "tag": "div",
-                    },
-                    "ref": null,
-                    "rendered": "Name",
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "onChange": [Function],
-                      "type": "text",
-                      "value": "Dan",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                ],
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "children": <InputGroup
-                  tag="div"
->
-                  <InputGroupAddon
-                                    addonType="prepend"
-                                    tag="div"
-                  >
-                                    Surname
-                  </InputGroupAddon>
-                  <Input
-                                    onChange={[Function]}
-                                    type="text"
-                                    value="Kreiger"
-                  />
-</InputGroup>,
-                "tag": "div",
-                "widths": Array [
-                  "xs",
-                  "sm",
-                  "md",
-                  "lg",
-                  "xl",
-                ],
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "children": Array [
-                    <InputGroupAddon
-                      addonType="prepend"
-                      tag="div"
->
-                      Surname
-</InputGroupAddon>,
-                    <Input
-                      onChange={[Function]}
-                      type="text"
-                      value="Kreiger"
-/>,
-                  ],
-                  "tag": "div",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "addonType": "prepend",
-                      "children": "Surname",
-                      "tag": "div",
-                    },
-                    "ref": null,
-                    "rendered": "Surname",
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "onChange": [Function],
-                      "type": "text",
-                      "value": "Kreiger",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                ],
-                "type": [Function],
-              },
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": <Col
-              tag="div"
-              widths={
-                            Array [
-                                          "xs",
-                                          "sm",
-                                          "md",
-                                          "lg",
-                                          "xl",
-                                        ]
-              }
->
-              <Card
-                            body={true}
-                            color="primary"
-                            inverse={true}
-                            tag="div"
-              >
-                            <CardTitle
-                                          tag="h5"
-                            >
-                                          Dan
-                            </CardTitle>
-                            <CardText
-                                          tag="p"
-                            >
-                                          Kreiger
-                            </CardText>
-                            <Button
-                                          color="secondary"
-                                          onClick={[Function]}
-                                          tag="button"
-                            >
-                                          Click me 
-                                          0
-                            </Button>
-              </Card>
-</Col>,
-            "tag": "div",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": <Card
-                body={true}
-                color="primary"
-                inverse={true}
-                tag="div"
->
-                <CardTitle
-                                tag="h5"
-                >
-                                Dan
-                </CardTitle>
-                <CardText
-                                tag="p"
-                >
-                                Kreiger
-                </CardText>
-                <Button
-                                color="secondary"
-                                onClick={[Function]}
-                                tag="button"
-                >
-                                Click me 
-                                0
-                </Button>
-</Card>,
-              "tag": "div",
-              "widths": Array [
-                "xs",
-                "sm",
-                "md",
-                "lg",
-                "xl",
-              ],
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "body": true,
-                "children": Array [
-                  <CardTitle
-                    tag="h5"
->
-                    Dan
-</CardTitle>,
-                  <CardText
-                    tag="p"
->
-                    Kreiger
-</CardText>,
-                  <Button
-                    color="secondary"
-                    onClick={[Function]}
-                    tag="button"
->
-                    Click me 
-                    0
-</Button>,
-                ],
-                "color": "primary",
-                "inverse": true,
-                "tag": "div",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": "Dan",
-                    "tag": "h5",
-                  },
-                  "ref": null,
-                  "rendered": "Dan",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": "Kreiger",
-                    "tag": "p",
-                  },
-                  "ref": null,
-                  "rendered": "Kreiger",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": Array [
-                      "Click me ",
-                      0,
-                    ],
-                    "color": "secondary",
-                    "onClick": [Function],
-                    "tag": "button",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "Click me ",
-                    0,
-                  ],
-                  "type": [Function],
-                },
-              ],
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          "type": [Function],
+          "data": "Name",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "text",
         },
       ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
+      "name": "label",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": Object {
+        "attribs": Object {
+          "value": "Dan",
+        },
+        "children": Array [],
+        "name": "input",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Surname",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": [Circular],
+            "root": Object {
+              "attribs": Object {},
+              "children": Array [
+                [Circular],
+                [Circular],
+                [Circular],
+                [Circular],
+                [Circular],
+              ],
+              "name": "root",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": null,
+              "type": "root",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
           },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
+          "parent": null,
+          "prev": [Circular],
+          "root": Object {
+            "attribs": Object {},
+            "children": Array [
+              [Circular],
+              [Circular],
+              [Circular],
+              [Circular],
+              Object {
+                "attribs": Object {
+                  "value": "Kreiger",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+            ],
+            "name": "root",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": null,
+            "type": "root",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
           },
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "parent": null,
+        "prev": [Circular],
+        "root": Object {
+          "attribs": Object {},
+          "children": Array [
+            [Circular],
+            [Circular],
+            [Circular],
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "value": "Kreiger",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Surname",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "label",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+          ],
+          "name": "root",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": null,
+          "type": "root",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "value": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "value": undefined,
         },
       },
+      "parent": null,
+      "prev": [Circular],
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          [Circular],
+          [Circular],
+          Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "value": "Kreiger",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {
+                  "value": "Dan",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
     },
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Name",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "value": "Kreiger",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "parent": null,
+          "prev": [Circular],
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {
+            "value": "Dan",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Surname",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {
+            "value": "Kreiger",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Name",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "label",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {},
+    "x-attribsPrefix": Object {},
+  },
+  "1": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "data": "Name",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
+      },
+    ],
+    "name": "label",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": Object {
+      "attribs": Object {
+        "value": "Dan",
+      },
+      "children": Array [],
+      "name": "input",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "data": "Surname",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "label",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "value": "Kreiger",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": [Circular],
+          "root": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Click me 0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": null,
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              [Circular],
+              [Circular],
+              [Circular],
+              [Circular],
+            ],
+            "name": "root",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": null,
+            "type": "root",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+        "parent": null,
+        "prev": [Circular],
+        "root": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            [Circular],
+            [Circular],
+            [Circular],
+            Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+          ],
+          "name": "root",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": null,
+          "type": "root",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "parent": null,
+      "prev": [Circular],
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          [Circular],
+          [Circular],
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {
+        "value": undefined,
+      },
+      "x-attribsPrefix": Object {
+        "value": undefined,
+      },
+    },
+    "parent": null,
+    "prev": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "data": "Click me 0",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "text",
+        },
+      ],
+      "name": "button",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": [Circular],
+      "parent": null,
+      "prev": null,
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          [Circular],
+          [Circular],
+          Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "value": "Kreiger",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {
+                  "value": "Dan",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Click me 0",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "button",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": null,
+          "prev": null,
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        [Circular],
+        Object {
+          "attribs": Object {
+            "value": "Dan",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "parent": null,
+          "prev": [Circular],
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Surname",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {
+            "value": "Kreiger",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {},
+    "x-attribsPrefix": Object {},
+  },
+  "2": Object {
+    "attribs": Object {
+      "value": "Dan",
+    },
+    "children": Array [],
+    "name": "input",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "data": "Surname",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "text",
+        },
+      ],
+      "name": "label",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": Object {
+        "attribs": Object {
+          "value": "Kreiger",
+        },
+        "children": Array [],
+        "name": "input",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": [Circular],
+        "root": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Name",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "label",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Click me 0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": null,
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            [Circular],
+            [Circular],
+            [Circular],
+          ],
+          "name": "root",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": null,
+          "type": "root",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "value": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "value": undefined,
+        },
+      },
+      "parent": null,
+      "prev": [Circular],
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          [Circular],
+          [Circular],
+          Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "parent": null,
+    "prev": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "data": "Name",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "text",
+        },
+      ],
+      "name": "label",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": [Circular],
+      "parent": null,
+      "prev": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "data": "Click me 0",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "button",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": [Circular],
+        "parent": null,
+        "prev": null,
+        "root": Object {
+          "attribs": Object {},
+          "children": Array [
+            [Circular],
+            [Circular],
+            [Circular],
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "value": "Kreiger",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Surname",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "label",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+          ],
+          "name": "root",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": null,
+          "type": "root",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          [Circular],
+          [Circular],
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Click me 0",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "button",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "parent": null,
+          "prev": null,
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Name",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        [Circular],
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Surname",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "parent": null,
+          "prev": [Circular],
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {
+            "value": "Kreiger",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "value": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "value": undefined,
+    },
+  },
+  "3": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "data": "Surname",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
+      },
+    ],
+    "name": "label",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": Object {
+      "attribs": Object {
+        "value": "Kreiger",
+      },
+      "children": Array [],
+      "name": "input",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": [Circular],
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "value": "Dan",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Click me 0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": null,
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          [Circular],
+          [Circular],
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {
+        "value": undefined,
+      },
+      "x-attribsPrefix": Object {
+        "value": undefined,
+      },
+    },
+    "parent": null,
+    "prev": Object {
+      "attribs": Object {
+        "value": "Dan",
+      },
+      "children": Array [],
+      "name": "input",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": [Circular],
+      "parent": null,
+      "prev": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "data": "Name",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
+          },
+        ],
+        "name": "label",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": [Circular],
+        "parent": null,
+        "prev": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Click me 0",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "button",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": null,
+          "prev": null,
+          "root": Object {
+            "attribs": Object {},
+            "children": Array [
+              [Circular],
+              [Circular],
+              [Circular],
+              [Circular],
+              Object {
+                "attribs": Object {
+                  "value": "Kreiger",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+            ],
+            "name": "root",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": null,
+            "type": "root",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "root": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            [Circular],
+            [Circular],
+            [Circular],
+            Object {
+              "attribs": Object {
+                "value": "Kreiger",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+          ],
+          "name": "root",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": null,
+          "type": "root",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          [Circular],
+          [Circular],
+          Object {
+            "attribs": Object {
+              "value": "Kreiger",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {
+        "value": undefined,
+      },
+      "x-attribsPrefix": Object {
+        "value": undefined,
+      },
+    },
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Click me 0",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "button",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "parent": null,
+          "prev": null,
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Name",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {
+            "value": "Dan",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+        [Circular],
+        Object {
+          "attribs": Object {
+            "value": "Kreiger",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": [Circular],
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {},
+    "x-attribsPrefix": Object {},
+  },
+  "4": Object {
+    "attribs": Object {
+      "value": "Kreiger",
+    },
+    "children": Array [],
+    "name": "input",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "data": "Surname",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "text",
+        },
+      ],
+      "name": "label",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": [Circular],
+      "parent": null,
+      "prev": Object {
+        "attribs": Object {
+          "value": "Dan",
+        },
+        "children": Array [],
+        "name": "input",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": [Circular],
+        "parent": null,
+        "prev": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Name",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": null,
+            "root": Object {
+              "attribs": Object {},
+              "children": Array [
+                [Circular],
+                [Circular],
+                [Circular],
+                [Circular],
+                [Circular],
+              ],
+              "name": "root",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": null,
+              "prev": null,
+              "type": "root",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Click me 0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": null,
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              [Circular],
+              [Circular],
+              [Circular],
+              [Circular],
+            ],
+            "name": "root",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": null,
+            "prev": null,
+            "type": "root",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "root": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Name",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "label",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Click me 0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": null,
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            [Circular],
+            [Circular],
+            [Circular],
+          ],
+          "name": "root",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": null,
+          "prev": null,
+          "type": "root",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "value": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "value": undefined,
+        },
+      },
+      "root": Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "value": "Dan",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Click me 0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": null,
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          [Circular],
+          [Circular],
+        ],
+        "name": "root",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "type": "root",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+      "type": "tag",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Click me 0",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "button",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Surname",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "label",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": [Circular],
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "parent": null,
+          "prev": null,
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Name",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Surname",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": [Circular],
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Click me 0",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": null,
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        Object {
+          "attribs": Object {
+            "value": "Dan",
+          },
+          "children": Array [],
+          "name": "input",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Surname",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": [Circular],
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "data": "Name",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "label",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Click me 0",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": null,
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {},
+            "x-attribsPrefix": Object {},
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "value": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "value": undefined,
+          },
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Surname",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "label",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": null,
+          "prev": Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": null,
+            "prev": Object {
+              "attribs": Object {},
+              "children": Array [
+                Object {
+                  "data": "Name",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "label",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": null,
+              "prev": Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "data": "Click me 0",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": null,
+                "prev": null,
+                "root": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "root": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            "root": [Circular],
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          "root": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "value": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "value": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 5,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
   },
 }
 `;
