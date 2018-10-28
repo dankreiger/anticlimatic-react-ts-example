@@ -1,17 +1,14 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 
-// export function useFormInput(initialValue: string) {
-//   let value: string;
-//   let setValue: (value: string) => string;
-  
-//   [value, setValue] = useState(initialValue);
+export default function useFormInput(initialValue: string) {
+  const [value, setValue] = useState(initialValue);
 
-//   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-//     setValue(e.target.value);
-//   }
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setValue(e.target.value);
+  }
 
-//   return {
-//     onChange: handleChange,
-//     value
-//   };
-// }
+  return {
+    onChange: handleChange,
+    value
+  };
+}

@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-const InputGroup: React.SFC<{inputLabel: string, inputValue: string}> = ({inputLabel, inputValue}) => {
+const InputGroup: React.SFC<{inputLabel: string, stateHook: any}> = ({inputLabel, stateHook}) => {
   return (
     <>
       <label>{inputLabel}</label>
-      <input value={inputValue} />
+      <input {...stateHook} />
     </>
   );
 };
