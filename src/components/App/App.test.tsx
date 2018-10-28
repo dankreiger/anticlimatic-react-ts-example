@@ -42,8 +42,9 @@ describe('App', () => {
 
   describe('behavior', () => {
     let component: enzyme.ReactWrapper;
+
     beforeEach(() => {
-      // global.innerWidth = 500;
+      global.innerWidth = 500;
       component = enzyme.mount(<App />); // Enzyme's shallow isn't working with state hooks
     });
 
@@ -54,11 +55,11 @@ describe('App', () => {
       expect(component.find('button').text()).toBe('Click me 1');
     });
 
-    // test('renders the window size on resize', () => {
-    //   expect(component.find('.windowWidth').text()).toBe('Window width: 500');
-    //   global.innerWidth = 1023;
-    //   component = mount(<App />); // only works like this right now - .update() not working on component
-    //   expect(component.find('.windowWidth').text()).toBe('Window width: 1023');
-    // });
+    test('renders the window size on resize', () => {
+      expect(component.find('.windowWidth').text()).toBe('Window width: 500');
+      global.innerWidth = 1023;
+      component = enzyme.mount(<App />); // only works like this right now - .update() not working on component
+      expect(component.find('.windowWidth').text()).toBe('Window width: 1023');
+    });
   });
 });
