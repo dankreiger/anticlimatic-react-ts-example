@@ -1,6 +1,6 @@
+import * as enzyme from 'enzyme';
 import * as React from 'react';
 import useFormInput from './useFormInput';
-import * as enzyme from 'enzyme';
 
 const MockComponent = () => {
   const stateHook = useFormInput('test value');

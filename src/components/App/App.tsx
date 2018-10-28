@@ -1,18 +1,20 @@
 import * as React from 'react';
-import { useState } from 'react'; // // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/5128
+import { ChangeEvent, SFC, useState } from 'react'; // // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/5128
+
 // hooks
-import useFormInput from '../../hooks/useFormInput/useFormInput';
 import useDocumentTitle from '../../hooks/useDocumentTitle/useDocumentTitle';
+import useFormInput from '../../hooks/useFormInput/useFormInput';
+import useWindowWidth from '../../hooks/useWindowWidth/useWindowWidth';
+
 // components
 import InputGroup from '../InputGroup/InputGroup';
-import useWindowWidth from '../../hooks/useWindowWidth/useWindowWidth';
 
 interface IFormInputHook {
   value: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
-const App: React.SFC<{}> = () => {
+const App: SFC<{}> = () => {
   const name: IFormInputHook = useFormInput('Dan');
   const surname: IFormInputHook = useFormInput('Kreiger');
   useDocumentTitle(`${name.value} ${surname.value}`);
