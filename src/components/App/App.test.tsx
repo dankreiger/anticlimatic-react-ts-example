@@ -30,14 +30,16 @@ describe('App', () => {
       });
     });
 
-    // describe('div for window width', () => {
-    //   test('renders 1 div.windowWidth', () => {
-    //     expect(component.find('.windowWidth').length).toBe(1);
-    //   });
-    //   test('div.windowWidth displays the current window width information', () => {
-    //     expect(component.find('.windowWidth').text()).toBe('Window width: 1024'); // 1024 is the JSDOM default
-    //   });
-    // })
+    describe('div for window width', () => {
+      test('renders 1 div.windowWidth', () => {
+        expect(component.find('.windowWidth').length).toBe(1);
+      });
+      test('div.windowWidth displays the current window width information', () => {
+        expect(component.find('.windowWidth').text()).toBe(
+          'Window width: 1024'
+        ); // 1024 is the JSDOM default
+      });
+    });
   });
 
   describe('behavior', () => {
