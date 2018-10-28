@@ -63,8 +63,6 @@ class App extends React.Component<{}, IState> {
               <Input onChange={this.handleSurname} value={surname} />
             </InputGroup>
           </Col>
-          <Col>
-          </Col>
         </Row>
         <Row>
           <Col>
