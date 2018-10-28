@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { useState } from 'react'; // // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/5128
 // hooks
-import useFormInput from '../../hooks/useFormInput';
-import useDocumentTitle from '../../hooks/useDocumentTitle';
+import useFormInput from '../../hooks/useFormInput/useFormInput';
+import useDocumentTitle from '../../hooks/useDocumentTitle/useDocumentTitle';
 // components
 import InputGroup from '../InputGroup/InputGroup';
-import useWindowWidth from '../../hooks/useWindowWidth';
+import useWindowWidth from '../../hooks/useWindowWidth/useWindowWidth';
 
 interface IFormInputHook {
   value: string;
