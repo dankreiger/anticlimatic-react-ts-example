@@ -1,8 +1,9 @@
 import * as React from 'react';
+// hooks
 import useFormInput from '../../hooks/useFormInput';
+import useDocumentTitle from '../../hooks/useDocumentTitle';
+// components
 import InputGroup from '../InputGroup/InputGroup';
-import { useDocumentTitle } from 'src/hooks/useDocumentTitle';
-
 
 interface IFormInputHook {
   value: string;
@@ -10,7 +11,7 @@ interface IFormInputHook {
 }
 
 const App: React.SFC<{}> = () => {
-  const name: IFormInputHook = useFormInput('Dan');;
+  const name: IFormInputHook = useFormInput('Dan');
   const surname: IFormInputHook = useFormInput('Kreiger');
 
   useDocumentTitle(`${name.value} ${surname.value}`);
