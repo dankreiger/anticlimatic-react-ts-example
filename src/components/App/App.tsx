@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { SFC, useState } from 'react'; // // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/5128
 import { IFormInputHook } from 'src/interfaces/hookInterfaces/IFormInputHook.interface';
-
 // hooks
 import useDocumentTitle from '../../hooks/useDocumentTitle/useDocumentTitle';
 import useFormInput from '../../hooks/useFormInput/useFormInput';
@@ -9,6 +8,9 @@ import useWindowWidth from '../../hooks/useWindowWidth/useWindowWidth';
 
 // components
 import InputGroup from '../InputGroup/InputGroup';
+
+// styles
+import { AppContainer, AppInputGroupContainer } from './styles';
 
 const App: SFC<{}> = () => {
   const name: IFormInputHook = useFormInput('Dan');
@@ -20,12 +22,14 @@ const App: SFC<{}> = () => {
   const windowWidth = useWindowWidth();
 
   return (
-    <>
+    <AppContainer>
       <button onClick={handleClick}>Click me {count}</button>
-      <InputGroup inputLabel="Name" stateHook={name} />
-      <InputGroup inputLabel="Surname" stateHook={surname} />
+      <AppInputGroupContainer>
+        <InputGroup inputLabel="Name" stateHook={name} />
+        <InputGroup inputLabel="Surname" stateHook={surname} />
+      </AppInputGroupContainer>
       <p className="windowWidth">Window width: {windowWidth}</p>
-    </>
+    </AppContainer>
   );
 };
 

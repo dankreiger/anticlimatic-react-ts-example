@@ -3,138 +3,191 @@
 exports[`App rendering renders as expected 1`] = `
 initialize {
   "0": Object {
-    "attribs": Object {},
+    "attribs": Object {
+      "class": "sc-bdVaJa cvBFRQ",
+    },
     "children": Array [
       Object {
-        "data": "test label",
-        "next": null,
-        "parent": [Circular],
-        "prev": null,
-        "type": "text",
-      },
-    ],
-    "name": "label",
-    "namespace": "http://www.w3.org/1999/xhtml",
-    "next": Object {
-      "attribs": Object {
-        "value": "Dan",
-      },
-      "children": Array [],
-      "name": "input",
-      "namespace": "http://www.w3.org/1999/xhtml",
-      "next": null,
-      "parent": null,
-      "prev": [Circular],
-      "root": Object {
         "attribs": Object {},
         "children": Array [
-          [Circular],
-          [Circular],
-        ],
-        "name": "root",
-        "namespace": "http://www.w3.org/1999/xhtml",
-        "next": null,
-        "parent": null,
-        "prev": null,
-        "type": "root",
-        "x-attribsNamespace": Object {},
-        "x-attribsPrefix": Object {},
-      },
-      "type": "tag",
-      "x-attribsNamespace": Object {
-        "value": undefined,
-      },
-      "x-attribsPrefix": Object {
-        "value": undefined,
-      },
-    },
-    "parent": null,
-    "prev": null,
-    "root": Object {
-      "attribs": Object {},
-      "children": Array [
-        [Circular],
-        Object {
-          "attribs": Object {
-            "value": "Dan",
+          Object {
+            "data": "test label",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "text",
           },
-          "children": Array [],
-          "name": "input",
+        ],
+        "name": "label",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "class": "focus-border",
+                },
+                "children": Array [],
+                "name": "span",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            Object {
+              "attribs": Object {
+                "class": "focus-border",
+              },
+              "children": Array [],
+              "name": "span",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Object {
+                "attribs": Object {
+                  "value": "Dan",
+                },
+                "children": Array [],
+                "name": "input",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "value": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "value": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": null,
-          "parent": null,
-          "prev": [Circular],
-          "root": [Circular],
-          "type": "tag",
-          "x-attribsNamespace": Object {
-            "value": undefined,
-          },
-          "x-attribsPrefix": Object {
-            "value": undefined,
-          },
-        },
-      ],
-      "name": "root",
-      "namespace": "http://www.w3.org/1999/xhtml",
-      "next": null,
-      "parent": null,
-      "prev": null,
-      "type": "root",
-      "x-attribsNamespace": Object {},
-      "x-attribsPrefix": Object {},
-    },
-    "type": "tag",
-    "x-attribsNamespace": Object {},
-    "x-attribsPrefix": Object {},
-  },
-  "1": Object {
-    "attribs": Object {
-      "value": "Dan",
-    },
-    "children": Array [],
-    "name": "input",
-    "namespace": "http://www.w3.org/1999/xhtml",
-    "next": null,
-    "parent": null,
-    "prev": Object {
-      "attribs": Object {},
-      "children": Array [
-        Object {
-          "data": "test label",
-          "next": null,
           "parent": [Circular],
-          "prev": null,
-          "type": "text",
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
         },
-      ],
-      "name": "label",
-      "namespace": "http://www.w3.org/1999/xhtml",
-      "next": [Circular],
-      "parent": null,
-      "prev": null,
-      "root": Object {
-        "attribs": Object {},
-        "children": Array [
-          [Circular],
-          [Circular],
-        ],
-        "name": "root",
-        "namespace": "http://www.w3.org/1999/xhtml",
-        "next": null,
-        "parent": null,
+        "parent": [Circular],
         "prev": null,
-        "type": "root",
+        "type": "tag",
         "x-attribsNamespace": Object {},
         "x-attribsPrefix": Object {},
       },
-      "type": "tag",
-      "x-attribsNamespace": Object {},
-      "x-attribsPrefix": Object {},
-    },
-    "root": Object {
-      "attribs": Object {},
-      "children": Array [
-        Object {
+      Object {
+        "attribs": Object {},
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "value": "Dan",
+            },
+            "children": Array [],
+            "name": "input",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "class": "focus-border",
+              },
+              "children": Array [],
+              "name": "span",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "value": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "value": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {
+              "class": "focus-border",
+            },
+            "children": Array [],
+            "name": "span",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "value": "Dan",
+              },
+              "children": Array [],
+              "name": "input",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "value": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "value": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
           "attribs": Object {},
           "children": Array [
             Object {
@@ -148,13 +201,25 @@ initialize {
           "name": "label",
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
-          "parent": null,
+          "parent": [Circular],
           "prev": null,
-          "root": [Circular],
           "type": "tag",
           "x-attribsNamespace": Object {},
           "x-attribsPrefix": Object {},
         },
+        "type": "tag",
+        "x-attribsNamespace": Object {},
+        "x-attribsPrefix": Object {},
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
         [Circular],
       ],
       "name": "root",
@@ -168,14 +233,14 @@ initialize {
     },
     "type": "tag",
     "x-attribsNamespace": Object {
-      "value": undefined,
+      "class": undefined,
     },
     "x-attribsPrefix": Object {
-      "value": undefined,
+      "class": undefined,
     },
   },
   "_root": [Circular],
-  "length": 2,
+  "length": 1,
   "options": Object {
     "decodeEntities": true,
     "normalizeWhitespace": false,
