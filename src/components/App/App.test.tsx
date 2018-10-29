@@ -1,6 +1,9 @@
 import { mount, ReactWrapper, render } from 'enzyme';
 import * as React from 'react';
+import { IGlobal } from 'src/interfaces/testInterfaces/IGlobal.interface';
 import App from './App';
+
+declare let global: IGlobal;
 
 describe('App', () => {
   describe('rendering', () => {
@@ -54,14 +57,14 @@ describe('App', () => {
       expect(component.find('button').text()).toBe('Click me 1');
     });
 
-    // test('renders the window size on resize', () => {
-    //   global.innerWidth = 500;
-    //   component = enzyme.mount(<App />); // only works like this right now - .update() not working on component
+    test('renders the window size on resize', () => {
+      global.innerWidth = 500;
+      component = mount(<App />); // only works like this right now - .update() not working on component
 
-    //   expect(component.find('.windowWidth').text()).toBe('Window width: 500');
-    //   global.innerWidth = 1023;
-    //   component = enzyme.mount(<App />); // only works like this right now - .update() not working on component
-    //   expect(component.find('.windowWidth').text()).toBe('Window width: 1023');
-    // });
+      expect(component.find('.windowWidth').text()).toBe('Window width: 500');
+      global.innerWidth = 1023;
+      component = mount(<App />); // only works like this right now - .update() not working on component
+      expect(component.find('.windowWidth').text()).toBe('Window width: 1023');
+    });
   });
 });

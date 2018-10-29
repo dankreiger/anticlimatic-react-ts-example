@@ -1,13 +1,7 @@
 import { mount, ReactWrapper } from 'enzyme';
 import * as React from 'react';
+import { IGlobal } from 'src/interfaces/testInterfaces/IGlobal.interface';
 import useWindowWidth from './useWindowWidth';
-
-interface IGlobal extends NodeJS.Global {
-  document: Document;
-  window: Window;
-  navigator: Navigator;
-  innerWidth: number;
-}
 
 declare let global: IGlobal;
 
