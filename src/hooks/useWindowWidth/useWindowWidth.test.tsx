@@ -19,12 +19,12 @@ const MockComponent = () => {
 describe('useWindowWidth', () => {
   let mockedComponent: ReactWrapper;
 
-  test('it returns hook', () => {
+  test('it returns window width value', () => {
     mockedComponent = mount(<MockComponent />);
     expect(mockedComponent.find('div').text()).toBe('1024');
 
-    global.innerWidth = 500; // not sure how to make this right in typescript
-    // mockedComponent.update()
+    global.innerWidth = 500;
+    // mockedComponent.update() // does not work
     mockedComponent = mount(<MockComponent />); // not sure why I have to do this
     expect(mockedComponent.find('div').text()).toBe('500');
   });
