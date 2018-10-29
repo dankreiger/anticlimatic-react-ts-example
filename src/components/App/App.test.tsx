@@ -1,10 +1,10 @@
-import * as enzyme from 'enzyme';
+import { mount, ReactWrapper, render } from 'enzyme';
 import * as React from 'react';
 import App from './App';
 
 describe('App', () => {
   describe('rendering', () => {
-    const renderedComponent: Cheerio = enzyme.render(<App />); // shallow wrapper not working with hooks
+    const renderedComponent: Cheerio = render(<App />); // shallow wrapper not working with hooks
     test('renders as expected', () => {
       expect(renderedComponent).toBeTruthy();
       expect(renderedComponent).toMatchSnapshot();
@@ -12,9 +12,9 @@ describe('App', () => {
   });
 
   describe('structure', () => {
-    let component: enzyme.ReactWrapper;
+    let component: ReactWrapper;
     beforeEach(() => {
-      component = enzyme.mount(<App />); // Enzyme's shallow not working with React state hooks
+      component = mount(<App />); // Enzyme's shallow not working with React state hooks
     });
     describe('button', () => {
       test('renders 1 button html element', () => {
@@ -43,10 +43,10 @@ describe('App', () => {
   });
 
   describe('behavior', () => {
-    let component: enzyme.ReactWrapper;
+    let component: ReactWrapper;
 
     test('renders an incremented value on button click', () => {
-      component = enzyme.mount(<App />); // Enzyme's shallow isn't working with state hooks
+      component = mount(<App />); // Enzyme's shallow isn't working with state hooks
 
       expect(component.find('button').text()).toBe('Click me 0');
       component.find('button').simulate('click');
